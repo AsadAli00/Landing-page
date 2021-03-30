@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:monospace;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+.header{
+    background-image: url('background banner.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 10%;
+  height: 550px;
+ 
+}
+.navbar{
+    height: 60px;
+    opacity: 0.4;
+    width: 100%;
+
+}
+.logo{
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+.navbar_items{
+    font-family: monospace;
+    display: inline;
+    float: right;
+
+}
+.items {
+    padding: 10px;
+}
+.items li {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    display: inline;
+    color: pink;
+    margin: 80px;
+}
+.items li:hover{
+   border-bottom: 2px solid white;
+
+}
+.banner{
+    height: 350px;
+    width: 100%;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff9ff;
+    height: 400px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    color: #f82a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+.detail h1{
+    color: brown;
+    font-size: 40px;
+}
+.detail h2{
+    text-align: center;
+    color:palevioletred;
+    font-size: 40px;
+    float: left;
+}
+.detail p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkolivegreen;
+
+}
+
+.product_image{
+    height: 400px;
+    background-image: url('product1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+.footer{
+    height: 200px;
+    background-color: pink;
+    position: sticky;
+    bottom: 0px;
+    box-shadow: 2px 1px 1px 0px;
+}
+.footer_item{
+    display: inline-block;
+    width: 23%;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px;
+    margin-top: 30px;
+    color: white;
+}
